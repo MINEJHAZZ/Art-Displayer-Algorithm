@@ -3,7 +3,8 @@ Art Display Algorithm was Designed by MINEJHAZZ(Aka. Jhazzmear John B. Saytas)
 https://github.com/MINEJHAZZ
 */
 
-package artdisplayer;
+//Only Use if you are using netbeans
+//package artdisplayer;
 
 //Imports/Resources needed
 import java.util.*;
@@ -79,7 +80,7 @@ String L33S = "         &@@@@@@@@@@@@@@@@@@@@@@.                                
 String L34S = "           *@@@@@@@@@@@@@@@@@@                                                                                          /@@@@@@@@@@@@@@@@@&           ";
 String L35S = "               ,#@@@@@@@&(.                                                                                                 *%@@@@@@@&/               ";
 
-//Convert string line to array
+//Convert string art/line to array
 String[] L1 = L1S.split("");
 String[] L2 = L2S.split("");
 String[] L3 = L3S.split("");
@@ -121,7 +122,7 @@ String[] L35 = L35S.split("");
 System.out.println("><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><Playstation 4 Art><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><");
 FN();
 
-//Prints array using Displayer Algorithm
+//Prints arrays using Displayer Algorithm
 PrintArr2(L1);
 PrintArr2(L2);
 PrintArr2(L3);
