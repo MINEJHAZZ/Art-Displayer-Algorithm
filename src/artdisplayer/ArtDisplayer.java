@@ -3,6 +3,8 @@ Art Display Algorithm was Designed by MINEJHAZZ(Aka. Jhazzmear John B. Saytas)
 https://github.com/MINEJHAZZ
 */
 
+//To make the code run smoother, please run it using cmd with the command line "java "path/to/file""
+
 //Only Use if you are using netbeans
 //package artdisplayer;
 
