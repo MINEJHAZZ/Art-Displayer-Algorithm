@@ -6,7 +6,7 @@ https://github.com/MINEJHAZZ
 //To make the code run smoother, please run it using cmd with the command line "java "path/to/file""
 
 //Only Use if you are using netbeans
-//package artdisplayer;
+package artdisplayer;
 
 //Imports/Resources needed
 import java.util.*;
@@ -34,9 +34,14 @@ static void TT()throws InterruptedException{
 
 //Array Displayer V3
 static void PrintArr2(String[] CLoad) throws InterruptedException{
+//Delay via Millisecond
 int stm = 5;
-    for (String CLoad1 : CLoad) {
+
+  //for (String1 <String to check>  : <Array to campare from String1>)
+    for (String CLoad1  : CLoad) {
         System.out.print(CLoad1);
+        
+      //simple trick for the "delay" to not make the program display everything at once
         TimeUnit.MILLISECONDS.sleep(stm);
     }
   SN();
